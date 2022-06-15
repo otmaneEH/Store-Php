@@ -1,3 +1,4 @@
+
 <!-- jQuery 3 -->
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <!-- Bootstrap 3.3.7 -->
@@ -13,6 +14,25 @@
 <script src="dist/js/adminlte.min.js"></script>
 <!-- CK Editor -->
 <script src="bower_components/ckeditor/ckeditor.js"></script>
+
+<!-- javascript
+    ========================sliderrrr========================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="bower_components/home_slide/js/jquery.js"></script>
+<script src="bower_components/home_slide/js/jquery.easing.1.3.js"></script>
+<script src="bower_components/home_slide/js/bootstrap.min.js"></script>
+<script src="bower_components/home_slide/js/jquery.fancybox.pack.js"></script>
+<script src="bower_components/home_slide/js/jquery.fancybox-media.js"></script> 
+<script src="bower_components/home_slide/js/portfolio/jquery.quicksand.js"></script>
+<script src="bower_components/home_slide/js/portfolio/setting.js"></script>
+<script src="bower_components/home_slide/js/jquery.flexslider.js"></script>
+<script src="bower_components/home_slide/js/animate.js"></script>
+<script src="bower_components/home_slide/js/custom.js"></script>
+<script src="bower_components/home_slide/js/owl-carousel/owl.carousel.js"></script>
+
+
+
+
 <script>
   $(function () {
     // Datatable
