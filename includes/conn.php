@@ -1,5 +1,7 @@
+
 <?php
 
+DEFINE('DS', DIRECTORY_SEPARATOR); 
 Class Database{
  
 	private $server = "mysql:host=localhost;dbname=ecomm";
@@ -22,6 +24,9 @@ Class Database{
 	public function close(){
    		$this->conn = null;
  	}
+	public function validation(){
+		
+	}
  
 }
 
