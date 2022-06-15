@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,14 +21,22 @@
     <!-- Magnify -->
     <link rel="stylesheet" href="magnify/magnify.min.css">
 
-  	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  	<!--[if lt IE 9]>
-  	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-  	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  	<![endif]-->
 
-  	<!-- Google Font -->
+<!-- sliderr -->
+
+<!-- css -->
+<link src="../bower_components/home_slide/css/bootstrap.min.css" rel="stylesheet" />
+<link src="../bower_components/home_slide/css/bootstrap.min.css" rel="stylesheet" />
+<link src="../bbower_components/home_slide/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+<link src="../bower_components/home_slide/css/jcarousel.css" rel="stylesheet" />
+<link src="../bower_components/home_slide/css/flexslider.css" rel="stylesheet" />
+<link href="../bbower_components/home_slide/js/owl-carousel/owl.carousel.css" rel="stylesheet">
+<link src="../bower_components/home_slide/css/style.css" rel="stylesheet" />
+ 
+
+
+
+<!--  -->
   	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 
     <!-- Paypal Express -->
