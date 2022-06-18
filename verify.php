@@ -8,7 +8,6 @@
 		$password = $_POST['password'];
 
 		try{
-
 			$stmt = $conn->prepare("SELECT *, COUNT(*) AS numrows FROM users WHERE email = :email");
 			$stmt->execute(['email'=>$email]);
 			$row = $stmt->fetch();
