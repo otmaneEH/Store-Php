@@ -1,4 +1,3 @@
-
 <?php include 'includes/session.php'; ?>
 <?php
 	if(!isset($_SESSION['user'])){

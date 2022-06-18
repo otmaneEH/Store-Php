@@ -1,4 +1,3 @@
-
 <?php include 'includes/session.php'; ?>
 <?php include 'includes/header.php'; ?>
 <body class="hold-transition skin-blue layout-top-nav">
@@ -43,7 +42,7 @@
 		       									<h5><a href='product.php?product=".$row['slug']."'>".$highlighted."</a></h5>
 		       								</div>
 		       								<div class='box-footer'>
-		       									<b>&#36; ".number_format($row['price'], 2)."</b>
+		       									<b>MAD; ".number_format($row['price'], 2)."</b>
 		       								</div>
 	       								</div>
 	       							</div>

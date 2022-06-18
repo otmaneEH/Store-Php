@@ -17,7 +17,6 @@
 
 <!-- javascript
     ========================sliderrrr========================== -->
-<!-- Placed at the end of the document so the pages load faster -->
 <script src="bower_components/home_slide/js/jquery.js"></script>
 <script src="bower_components/home_slide/js/jquery.easing.1.3.js"></script>
 <script src="bower_components/home_slide/js/bootstrap.min.js"></script>

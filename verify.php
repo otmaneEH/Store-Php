@@ -1,6 +1,4 @@
 <?php
-
-	include "C:\Users\Otmanee7\Documents\GitHub\bb\Store-Php\includes\functions\func-validation.php";
 	include 'includes/session.php';
 	$conn = $pdo->open();
 
@@ -18,7 +16,6 @@
 				if($row['status']){
 					if(password_verify($password, $row['password'])){
 						if($row['type']){
-							print_r( $dir['type']);
 							$_SESSION['admin'] = $row['id'];
 						}
 						else{

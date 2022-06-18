@@ -6,7 +6,7 @@
 	<?php include 'includes/navbar.php'; ?>
 	 
 	  <div class="content-wrapper">
-	    <div class="container-fluid">
+	    <div class="container">
 
 	      <!-- Main content -->
 	      <section class="content">
@@ -30,13 +30,15 @@
 		                </ol>
 		                <div class="carousel-inner">
 		                  <div class="item active">
-		                    <img src="images/banner1.png" alt="First slide">
+		                    <img src="images/banner(2).jpg" alt="First slide">
 		                  </div>
-		                  <div class="item ">
-		                    <img src="images/acer-aspire-gx-781-gaming-pc.jpg" alt="First slide">
+						  <div class="item ">
+		                    <img src="images/banner(1).jpg" alt="First slide">
+		                  </div>
+						  <div class="item ">
+		                    <img src="images/banner.jpg" alt="First slide">
 		                  </div>
 
-						  
 		                </div>
 		                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
 		                  <span class="fa fa-angle-left"></span>
@@ -45,18 +47,13 @@
 		                  <span class="fa fa-angle-right"></span>
 		                </a>
 		            </div>
-
-						<!-- Slider -->
-
-
-	<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
 		            <h2>Monthly Top Sellers</h2>
 		       		<?php
 		       			$month = date('m');
 		       			$conn = $pdo->open();
 
 		       			try{
-		       			 	$inc = 3;	
+		       			 	$inc = 4;	
 						    $stmt = $conn->prepare("SELECT *, SUM(quantity) AS total_qty FROM details LEFT JOIN sales ON sales.id=details.sales_id LEFT JOIN products ON products.id=details.product_id WHERE MONTH(sales_date) = '$month' GROUP BY details.product_id ORDER BY total_qty DESC LIMIT 6");
 						    $stmt->execute();
 						    foreach ($stmt as $row) {
@@ -71,7 +68,7 @@
 		       									<h5><a href='product.php?product=".$row['slug']."'>".$row['name']."</a></h5>
 		       								</div>
 		       								<div class='box-footer'>
-		       									<b>&#36; ".number_format($row['price'], 2)."</b>
+		       									<b>MAD; ".number_format($row['price'], 2)."</b>
 		       								</div>
 	       								</div>
 	       							</div>
@@ -97,6 +94,7 @@
 	     
 	    </div>
 	  </div>
+	  
   
   	<?php include 'includes/footer.php'; ?>
 </div>
